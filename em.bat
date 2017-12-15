@@ -1,0 +1,1 @@
+@for /f "delims=" %%p in ('%~dp0\emExe.exe batch %*') do @%%p
